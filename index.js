@@ -74,3 +74,48 @@ if (value.color == "black"){
 
 var result = dataofCars.filter(findData);
 console.log(result);
+
+
+class Students {
+    constructor(city, cell, district, sibling, cast) {
+        this.city = city;
+        this.cell = cell;
+        this.district = district;
+        this.sibling = sibling;
+        this.cast = cast;
+        console.log("hello World");
+    }
+
+    printCity() {
+        console.log(`Your city is ${this.city}`);
+    }
+
+    printCell() {
+        console.log(`Your cell is ${this.cell}`);
+    }
+
+    printDistrict() {
+        console.log(`Your district is ${this.district}`);
+    }
+
+    printSibling() {
+        console.log(`No of siblings: ${this.sibling}`);
+    }
+
+    printCast() {
+        console.log(`Your cast is ${this.cast}`);
+    }
+}
+
+let umair = new Students("Fsd", 1177, "Punjab", 3, "Gujjer");
+let ali = new Students("Fsd", 1122, "Pindi", 6, "Mian");
+let hannan = new Students("Fsd", 1937, "KPK", 1, "Dogar");
+let muneeb = new Students("Fsd", 15, "Chitral", 2, "Muslim");
+
+umair.printCell();
+umair.printSibling();
+umair.printCast();
+umair.printCity();
+
+
+
