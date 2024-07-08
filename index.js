@@ -117,5 +117,16 @@ umair.printSibling();
 umair.printCast();
 umair.printCity();
 
+let employs = {
+    name : "ali",
+    age : 16,
+    disability : false,
+    salary : 28000,
+}
+delete employs.name
+employs. name = "ali";
+Object.seal(employs);
+
+
 
 
