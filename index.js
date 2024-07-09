@@ -128,5 +128,23 @@ employs. name = "ali";
 Object.seal(employs);
 
 
+// Functions in Objects .
 
+// Objects.keys(    )
+ 
+let cars ={
+    name : "audi",
+    owner : "ali",
+    color :"red",
+    registration : [{model : 2022 , city : "fsd"}]
+}
+
+console.log(Object.keys(cars));
+
+//  Object.values(    )  Use previous object
+
+console.log(Object.values(cars));
+
+// Object.entries(  )
+console.log(Object.entries(cars))
 
