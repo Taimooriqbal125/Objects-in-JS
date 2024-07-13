@@ -128,6 +128,12 @@ employs. name = "ali";
 Object.seal(employs);
 
 
+
+
+let newstudents = {
+    name : "ali",
+    class : 3
+}
 // Functions in Objects .
 
 // Objects.keys(    )
@@ -148,3 +154,14 @@ console.log(Object.values(cars));
 // Object.entries(  )
 console.log(Object.entries(cars))
 
+// Object.seal(  )    no change in previous
+
+Object.seal(cars);
+cars.sell = false
+delete cars.name
+// Objects.freeze(   )  no new add no change in previous 
+
+// Object.assign    important use to merge to objects 
+
+
+// (Object.assign(cars ,newstudents))
