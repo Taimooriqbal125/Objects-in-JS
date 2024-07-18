@@ -165,3 +165,5 @@ delete cars.name
 
 
 // (Object.assign(cars ,newstudents))
+
+// comment of multi line by /* jnskjxsjasjkac */
