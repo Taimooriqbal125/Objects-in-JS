@@ -167,3 +167,23 @@ delete cars.name
 // (Object.assign(cars ,newstudents))
 
 // comment of multi line by /* jnskjxsjasjkac */
+
+
+
+
+// Optional Chaining in Objects  (?.)
+
+let Ali ={
+    age : 21,
+    color : "black",
+    citizen : "pakistan",
+    height : "5 feet"
+}
+
+console.log(Ali.age)
+// in this ali.age is created and printed but in other case see
+
+console.log(Ali.gender)
+// in this case you see that genter is not created thus not be printed 
+//  use ?.
+console.log(Ali?.gender?.color);
